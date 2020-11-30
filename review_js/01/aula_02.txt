@@ -1,0 +1,19 @@
+JS - AULA 02
+
+CONDICIONAIS
+	sintaxe
+
+VARIAVEIS 2/2
+	var, let, const - diferenças
+
+TIPOS DE DADOS
+	4 principais, verificar o tipo de dado
+
+COMENTÁRIOS	
+	2 tipos
+
+document.getElementById() 
+
+REVISÃO
+	01/12/2020 - DIA
+	08/12/2020 - SEMANA 01
