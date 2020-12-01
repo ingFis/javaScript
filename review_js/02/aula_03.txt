@@ -1,0 +1,13 @@
+JS - AULA 03
+
+Funções
+	parâmetros e retornos
+
+Eventos
+	clique, passar o mouse e tirar o mouse, mudar o próprio elemento
+	teclado - 2 principais e diferenças, pegar o evento, verificar se apertou enter+ctrl
+
+
+REVISÃO
+	02/12/2020 - DIA
+	09/12/2020 - SEMANA 01
