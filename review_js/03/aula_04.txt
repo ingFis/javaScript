@@ -1,0 +1,18 @@
+JS - AULA 04
+
+MUDANÇA DE ESTILO
+	add classe, remover classe, adicionar estilo
+
+ARRAY
+	duas formas de declarar, função dentro do array, regastar propriedades
+
+diferença entre array e objeto
+
+OBJETOS	
+	sintaxe, manipular o propriedades no proprio objeto, funções no objeto, resgatar propriedades, objeto dentro de array
+
+Projeto: Menu navegação
+
+REVISÃO
+	03/12/2020 - DIA
+	10/12/2020 - SEMANA 01

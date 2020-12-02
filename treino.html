@@ -7,14 +7,27 @@
 </head>
 <body>
 
-    <h1 id="teste">TE</h1>
+    <h1 id="texto">treino</h1>
+
+    <input type="text" id="teste" name="teste" onkeyup="teste(event)">
+
+    <button id="button" onclick="this.innerHTML='Mudei'">OLA</button>
     <script>
 
-       var nome = "Ingrid";
-       var ano = 2020;
-       var nasc = 1998;
+       
+       function somar(x, y){
+           let soma = y + x;
+           return soma;
+       }
 
-       alert(ano - nasc)
+       function teste(e){
+        console.log(e)
+            if(e.keyCode == 13 && e.ctrlKey){
+                alert('salvou!')
+            }
+       }
+
+       document.getElementById('teste').value = somar(8,9)
     </script>
 </body>
 </html>
