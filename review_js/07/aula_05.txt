@@ -1,0 +1,16 @@
+JS - AULA 05
+
+SWITCH
+	sintaxe e quando utilizar
+
+LOOP FOR
+	normal e com array 
+
+LOOP WHILE
+
+querySelector e querySelectorAll
+	sintaxe, diferenças 
+
+REVISÃO
+	07/12/2020 - DIA
+	14/12/2020 - SEMANA 01

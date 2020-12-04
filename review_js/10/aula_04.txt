@@ -9,7 +9,7 @@ ARRAY
 diferença entre array e objeto
 
 OBJETOS	
-	sintaxe, manipular o propriedades no proprio objeto, funções no objeto, resgatar propriedades, objeto dentro de array
+	sintaxe, manipular propriedades no proprio objeto, funções no objeto, resgatar propriedades, objeto dentro de array
 
 Projeto: Menu navegação
 

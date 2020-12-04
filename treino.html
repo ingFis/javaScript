@@ -4,30 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .verde{
+            background-color: #0F0;
+        }
+
+        .vermelho{
+            background-color: #F00;
+        }
+
+        .azul{
+            background-color: #00F;
+        }
+    </style>
 </head>
 <body>
 
     <h1 id="texto">treino</h1>
 
-    <input type="text" id="teste" name="teste" onkeyup="teste(event)">
-
-    <button id="button" onclick="this.innerHTML='Mudei'">OLA</button>
+    <button onclick="vermelho()">Vermelho</button>
+    <button onclick="azul()">azul</button>
+    <button onclick="verde()">verde</button>
     <script>
 
+       function vermelho(){
+            limpar()
+            document.getElementById('texto').classList.add('vermelho')
+       }
+
+       function azul(){
+            limpar()
+            document.getElementById('texto').classList.add('azul')
+        }
+
+        function verde(){
+            limpar()
+            document.getElementById('texto').classList.add('verde')
+        }
+
+        function limpar(){
+           document.getElementById('texto').classList.remove('azul')
+           document.getElementById('texto').classList.remove('vermelho')
+           document.getElementById('texto').classList.remove('verde')
+        }
+
+        var array = [{nome:'ingrid', idade:22}, {nome:'Yasmin', idade:18}];
+
+        console.log(array[1].nome)
+        
        
-       function somar(x, y){
-           let soma = y + x;
-           return soma;
-       }
-
-       function teste(e){
-        console.log(e)
-            if(e.keyCode == 13 && e.ctrlKey){
-                alert('salvou!')
-            }
-       }
-
-       document.getElementById('teste').value = somar(8,9)
     </script>
 </body>
 </html>
