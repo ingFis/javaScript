@@ -5,54 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .verde{
-            background-color: #0F0;
-        }
-
-        .vermelho{
-            background-color: #F00;
-        }
-
-        .azul{
-            background-color: #00F;
-        }
+       
     </style>
 </head>
 <body>
 
-    <h1 id="texto">treino</h1>
+   <script>
+        let texto = 'Ingrid';
 
-    <button onclick="vermelho()">Vermelho</button>
-    <button onclick="azul()">azul</button>
-    <button onclick="verde()">verde</button>
-    <script>
-
-       function vermelho(){
-            limpar()
-            document.getElementById('texto').classList.add('vermelho')
-       }
-
-       function azul(){
-            limpar()
-            document.getElementById('texto').classList.add('azul')
-        }
-
-        function verde(){
-            limpar()
-            document.getElementById('texto').classList.add('verde')
-        }
-
-        function limpar(){
-           document.getElementById('texto').classList.remove('azul')
-           document.getElementById('texto').classList.remove('vermelho')
-           document.getElementById('texto').classList.remove('verde')
-        }
-
-        var array = [{nome:'ingrid', idade:22}, {nome:'Yasmin', idade:18}];
-
-        console.log(array[1].nome)
-        
-       
-    </script>
+        console.log(typeof(texto));
+   </script>
 </body>
 </html>

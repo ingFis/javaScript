@@ -17,3 +17,4 @@ document.getElementById()
 REVISÃO
 	01/12/2020 - DIA
 	08/12/2020 - SEMANA 01
+	15/12/2020 - SEMANA 02
