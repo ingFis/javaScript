@@ -1,0 +1,20 @@
+JS - AULA 07
+
+MANIPULAÇÃO DE ARRAY 1/4 2/4
+	- Transformar array em string
+	- Transforma array em string - separa como eu quiser
+	- Procura o item e retorna a posição - se não achar retorna -1
+	- Alteram o proprio array(referência) - remove o último item do array
+	- Alteram o próprio array(referência) - remove o primeiro item do array
+	- Alteram o próprio array(referência) - adiciona um item
+	- Adiciona item convencional(sem método)
+	- Remover o item, mas mantém o lugar
+	- Remover o item
+	- Concatenar
+	- Ordenar crescente
+	- Inverter ordem
+
+	
+REVISÃO
+	08/12/2020 - DIA
+	15/12/2020 - SEMANA 01
