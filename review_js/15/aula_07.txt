@@ -2,7 +2,7 @@ JS - AULA 07
 
 MANIPULAÇÃO DE ARRAY 1/4 2/4
 	- Transformar array em string
-	- Transforma array em string - separa como eu quiser
+	- Transforma array em string - separa como eu quiser - IMPORTANTE!
 	- Procura o item e retorna a posição - se não achar retorna -1
 	- Alteram o proprio array(referência) - remove o último item do array
 	- Alteram o próprio array(referência) - remove o primeiro item do array

@@ -5,16 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-       
+       .color{
+           background-color: aquamarine;
+       }
     </style>
 </head>
 <body>
+    <input type="text" name="" id="" onkeydown="digitou(event)">
 
    <script>
-        let texto = 'Ingrid Pereira da Silva';
-
-        console.log(texto.split(' '))
-      
+       
+       function digitou(e){
+           console.log(e)
+            if(e.keyCode == 13 && e.ctrlKey){
+                alert('salvou')
+            }
+       }
 
         
    </script>
