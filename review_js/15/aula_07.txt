@@ -14,7 +14,13 @@ MANIPULAÇÃO DE ARRAY 1/4 2/4
 	- Ordenar crescente
 	- Inverter ordem
 
-	
+MANIPULAÇÃO DE ARRAY 3/4 4/4
+	- Executa uma função em cada item do array e retorna um array do mesmo tamanho
+	- Executa uma função em cada item do array e retorna TRUE(adiciona no novo array) ou FALSE
+	- Executa uma função em cada item do array e retorna true(se todos os item cumprirem a condição) ou false
+	- Executa uma função em cada item do array e retorna true(se pelo menos um cumprir a condição) ou false
+	- Executa uma função em cada item do array e quando encontrar o primeiro item que cumpra a condição, ele retorna o elemento
+	- Executa uma função em cada item do array e quando encontrar o primeiro item que cumpra a condição, ele retorna a posição do elemento
+
 REVISÃO
-	08/12/2020 - DIA
-	15/12/2020 - SEMANA 01
+	15/12/2020 - DIA
