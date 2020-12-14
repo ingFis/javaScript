@@ -24,3 +24,31 @@ let [a, b, c] = criar();
 
 console.log(a, b, c)
 
+
+// DESCONSTRUINDO OBJETO
+let usuario = {
+    name: 'Ingrid',
+    surname: 'Pereira',
+    age: 22,
+    social:{
+        facebook:'ingrid_dev.facebook',
+        instagran: {
+            url: '@ingrid_dev',
+            seguidores: 2000000
+        }
+    }
+}
+
+// Declarar variavel com nome diferente, valor padrão e itens dentro de um objeto
+let {name:pessoaNome, surname, age = 18, social:{ instagran:{url:insta, seguidores} }} = usuario;
+
+console.log(pessoaNome, surname, age, insta, seguidores)
+
+let{} = usuario;
+
+// desconstruir no parâmetro da função
+function nomeCompleto({name, surname='Silva'}){
+    return `${name} ${surname}`
+}
+
+console.log(nomeCompleto(usuario));

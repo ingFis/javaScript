@@ -4,5 +4,10 @@ JS - AULA 08
 DESCONSTRUINDO ARRAY
 	como funciona e sintaxe
 
+DESCONSTRUINDO OBJETOS
+	como funciona e sintaxe
+	desconstruindo no parâmetro de uma função
+	renomear variaveis e objetos dentro de objetos
+
 REVISÃO
 	15/12/2020 - DIA
