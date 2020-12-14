@@ -14,3 +14,4 @@ querySelector e querySelectorAll
 REVISÃO
 	07/12/2020 - DIA
 	14/12/2020 - SEMANA 01
+	21/12/2020 - SEMANA 02

@@ -13,6 +13,7 @@ MANIPULAÇÃO DE STRING
 	- Tirar espaçamentos do começo e do fim
 	- Indicar o index e descobrir o caracatere na posição
 	- Tranformar string em array
+	- padEnd e padStart
 
 MANIPULAÇÃO DE NÚMERO
 	- Transformar número em string
@@ -21,5 +22,4 @@ MANIPULAÇÃO DE NÚMERO
 	- Tranformar string em número e manter as casas decimais
 
 REVISÃO
-	07/12/2020 - DIA
-	14/12/2020 - SEMANA 01
+	15/12/2020 - DIA

@@ -38,6 +38,23 @@ console.log(nome.charAt(4))
 // Transformar string em array
 console.log(nome.split(' '))
 
+// String, padStart, padEnd
+
+let telefone = '55';
+
+// padEnd(min de caracteres, preenche com isso)
+console.log(telefone.padEnd(9, '*'))
+
+// padStart(min de caracteres, preenche com isso)
+console.log(telefone.padStart(9, '*'));
+
+// EXEMPLO PRÁTICO
+let cartao = '1234123412341234';
+
+let last = cartao.slice(-4);
+
+console.log("ESSE É O SEU CARTÃO -> " + last.padStart(16, '*') + '?')
+
 // MANIPULAÇÃO DE NÚMEROS
 
 let num = 10;
