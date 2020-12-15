@@ -15,12 +15,22 @@
     <h1>Ola</h1>
 
    <script>
-       let array = [1, 2, 3, 4, 5];
-
-       for(let i in array){
-           console.log(array[i])
+       let array = {
+           nome: 'Ingrid',
+           social: {
+               instagran:{
+                   url: '@ingrid',
+                   seguidores: 22222
+               }
+           }
        }
 
+       function nome({nome}){
+           return `${nome} Pereira`
+       }
+    
+
+       console.log(nome(array))
 
         
    </script>

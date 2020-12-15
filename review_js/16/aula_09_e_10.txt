@@ -1,0 +1,22 @@
+JS - AULA 09 e AULA 10
+
+DATAS - AULA 09
+	- Pega a data atual do sistema que ta utilizando a classe
+	- Forma resumida
+	- Greenwich - tira o fuso
+	- Definindo data específica (2 formas)
+	- Data que começou a contagem
+	- Ano, mês, dia, o número do dia da semana, horas, minutos, segundos, milissegundos, timestamp
+	- Pega o horário atual sem criar obj ecmaScript 5
+	- MANIPULANDO - ano, mes, dia, horas ...
+
+MATEMÁTICA E TIMERS - AULA 10
+	- PI, Arredondar relativo/para baixo/para cima, número absoluto, menor valor, maior valor, aleatório
+
+	- Diferença e sintaxe setTimeOut e setInterval
+	
+
+
+REVISÃO
+	16/12/2020 - DIA
+	23/12/2020 - SEMANA 01
