@@ -1,0 +1,24 @@
+JS - AULA 11 e AULA 12
+
+
+OPERADORES - AULA 11
+	-operador spread -sintaxe e como funciona
+	-operador rest - sintaxe e como funciona
+	-arrow function - sintaxe, quando só tem uma linha de execução, quando só tem um parâmetro - diferença da função normal
+	- includes e repeat - sintaxe e para que serve?
+
+
+REQUISIÇÕES  - AULA 12
+	PROMISE - o que é, para que serve?
+	sintaxe, chamar uma função com promise 
+
+	AJAX/FETCH  - para que serve?
+	sintaxe
+
+	ASYNC/AWAIT - para que serve? diferenças
+	sintaxe e como funciona
+	pq async?
+
+REVISÃO
+	17/12/2020 - DIA
+	24/12/2020 - SEMANA 01

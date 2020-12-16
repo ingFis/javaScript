@@ -13,7 +13,7 @@ DATAS - AULA 09
 MATEMÁTICA E TIMERS - AULA 10
 	- PI, Arredondar relativo/para baixo/para cima, número absoluto, menor valor, maior valor, aleatório
 
-	- Diferença e sintaxe setTimeOut e setInterval
+	- Diferença e sintaxe setTimeOut e setInterval e limpar
 	
 
 
