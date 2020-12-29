@@ -45,6 +45,7 @@ function showTime(){
     let m = d.getMinutes();
     let s = d.getSeconds()
 
+    // TEMPLATE STRINGS
     let txt = `${h}:${m}:${s}`
 
     document.querySelector('.demo').innerHTML = txt

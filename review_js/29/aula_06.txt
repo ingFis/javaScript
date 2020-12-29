@@ -3,9 +3,9 @@ JS - AULA 06
 MANIPULAÇÃO DE STRING
 	- qtd de caracateres
 	- posição em que começa um caracatere e se não existir retorna -1 (atenção)
-	- Extrair info - pode começar do fim
+	- Extrair info - pode começar do fim - fatias
 	- Extrair info 
-	- Extrair info - posição inicial e qtd de caracateres
+	- Extrair info - posição inicial e qtd de caracateres 
 	- Substituir caracateres
 	- Caixa alta
 	- Caixa baixa
@@ -24,3 +24,5 @@ MANIPULAÇÃO DE NÚMERO
 REVISÃO
 	15/12/2020 - DIA
 	22/12/2020 - SEMANA 01
+	29/12/2020 - SEMANA 02
+	29/01/2021 - MÊS 01

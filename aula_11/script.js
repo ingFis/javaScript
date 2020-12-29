@@ -26,7 +26,7 @@ console.log(end)
 
 // OPERADOR REST
 
-// Quano não sei a quantidade de parâmetros
+// Quando não sei a quantidade de parâmetros
 
 function add(...numeros){
     console.log(numeros)
@@ -87,3 +87,35 @@ console.log(itens.includes('café'))
 // ecmascript 6 - REPEAT
 
 console.log('er'.repeat(7))
+
+/*********************************************************************************************************/
+// Objeto: Key, Values e Entries
+
+let lista = [
+    'ovo', 
+    'oleo', 
+    'leite', 
+    'fermento', 
+    'agua', 
+    'chocolate', 
+    'farinha de trigo', 
+    'açucar'
+]
+
+// RETORNA OS INDICES DO ARRAY
+console.log(Object.keys(lista))
+
+// RETORNA OS VALORES DO ARRAY
+console.log(Object.values(lista))
+
+//RETORNA UM ARRAY COM ARRAYS DENTRO(INDICE + VALUE)
+console.log(Object.entries(lista))
+
+
+let dados = {
+    nome: 'Anna Clara',
+    sobrenome: 'Medeiros',
+    idade: 2,
+}
+
+console.log(Object.keys(dados))

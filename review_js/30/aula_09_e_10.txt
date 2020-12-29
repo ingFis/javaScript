@@ -14,9 +14,11 @@ MATEMÁTICA E TIMERS - AULA 10
 	- PI, Arredondar relativo/para baixo/para cima, número absoluto, menor valor, maior valor, aleatório
 
 	- Diferença e sintaxe setTimeOut e setInterval e limpar
+
+
+TEMPLATE STRINGS
 	
-
-
 REVISÃO
 	16/12/2020 - DIA
 	23/12/2020 - SEMANA 01
+	30/12/2020 - SEMANA 02
