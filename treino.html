@@ -18,10 +18,17 @@
 
    <script>
       
-    let date = new Date()
+       var obj = {
+           nome: 'Ingrid',
+           Estudando: false,
+           estudar: function(){
+              this.Estudando = true;
+           }
+       }
 
+       obj.estudar()
 
-    console.log(date.toLocaleDateString())
+       console.log(obj.Estudando);
    </script>
 </body>
 </html>
