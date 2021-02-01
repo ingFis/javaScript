@@ -9,6 +9,8 @@ let etapaAtual = 0;
 
 let numero = '';
 
+let candidato = [];
+
 
 function comecarEtapa(){
     let etapa = etapas[etapaAtual];
@@ -33,7 +35,27 @@ function comecarEtapa(){
 }
 
 function atualizarInterface(){
-    alert('Voto Finalizado!')
+    let etapa = etapas[etapaAtual];
+
+    candidato = etapa.candidatos.filter((item)=>{
+        if(item.numero === numero){
+            return true;
+        }else{
+            return false;
+        }
+    })
+
+    if(candidato.length > 0){
+        preencherCandidato(candidato)
+    }
+    
+}
+
+function preencherCandidato(candidato){
+    candidato = candidato[0];
+
+    seuVotoPara.style.display = 'block';
+    descricao.innerHTML = `Nome: ${candidato.nome}<br> Partido: ${candidato.partido}`
 }
 
 
